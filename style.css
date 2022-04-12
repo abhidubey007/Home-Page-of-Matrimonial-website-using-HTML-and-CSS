@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+/* container */
+.container{
+    display: flex;
+}
+/* company name */
+.cn{
+    display: flex;
+    padding: 10px;
+    width: 20%;
+}
+.cn h3{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgb(255, 0, 106);
+    text-transform: uppercase;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    text-transform: capitalize;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    display: block;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(175, 0, 0);
+    padding: 5px;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgb(255, 0, 106);
+}
+/* search */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    text-transform: capitalize;
+    width: 213px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+/* Home section */
+.home{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.left h1{
+    color: rgb(255, 0, 106);
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: rgb(255, 0, 106);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(175, 0, 0);
+}
+.right{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    margin: auto;
+}
+.right img{
+    width: 400px;
+    height: 400px;
+}
